@@ -45,5 +45,6 @@
 
 @media screen and (max-width: 480px) {
 	.title {
+		grid-template-columns: auto 1fr;
 	}
 }

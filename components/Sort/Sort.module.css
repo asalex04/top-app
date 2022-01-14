@@ -7,7 +7,6 @@
 	color: var(--primary);
 }
 
-
 .active .sortIcon {
 	display: block;
 	margin-right: 8px;

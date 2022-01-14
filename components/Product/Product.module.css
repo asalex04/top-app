@@ -1,6 +1,8 @@
 .product {
 	display: grid;
-	grid-template-columns: [start] 70px [logoend] 30px [titlestart] calc(50% - 100px) [middle] 1fr [pricestart] auto [priceend] 40px [creditstart] auto [creditend] 40px [ratestart] auto [end];
+	grid-template-columns:
+		[start] 70px [logoend] 30px [titlestart] calc(50% - 100px) [middle] 1fr [pricestart]
+		auto [priceend] 40px [creditstart] auto [creditend] 40px [ratestart] auto [end];
 	margin-top: 30px;
 	padding: 30px;
 }
@@ -44,6 +46,8 @@
 
 .advBlock {
 	grid-column: middle / end;
+	font-size: 16px;
+	line-height: 22px;
 }
 
 .logo img {
@@ -93,11 +97,6 @@
 
 .revButton {
 	margin-left: 20px;
-}
-
-.advBlock {
-	font-size: 16px;
-	line-height: 22px;
 }
 
 .advTitle {

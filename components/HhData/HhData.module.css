@@ -4,6 +4,7 @@
 	gap: 30px;
 	text-align: center;
 }
+
 .count {
 	padding: 20px;
 }
@@ -67,11 +68,13 @@
 	.salary {
 		grid-template-columns: 1fr;
 	}
+
 	.salary > div {
 		border-right: none;
 		border-bottom: 1px solid var(--gray-ligth);
 		padding-bottom: 20px;
 	}
+
 	.salary > div:last-child {
 		border-bottom: none;
 		padding-bottom: 0;
